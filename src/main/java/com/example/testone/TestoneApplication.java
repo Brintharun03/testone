@@ -6,8 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class TestoneApplication {
 
+
     public static void main(String[] args) {
+
         SpringApplication.run(TestoneApplication.class, args);
+        System.out.println("A");
     }
 
 }
